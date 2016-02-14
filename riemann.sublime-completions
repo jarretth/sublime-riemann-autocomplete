@@ -1,0 +1,1871 @@
+{
+  "scope": "source.clojure",
+  "completions": [
+    "metric",
+    "host",
+    "service",
+    "state",
+    "riemann.bin/-main",
+    {
+      "trigger": "riemann.bin/-main\tconfig",
+      "contents": "riemann.bin/-main ${1:config}"
+    },
+    {
+      "trigger": "riemann.bin/-main\tcommand config",
+      "contents": "riemann.bin/-main ${1:command} ${2:config}"
+    },
+    "riemann.bin/handle-signals",
+    "riemann.bin/pid",
+    "riemann.bin/reload!",
+    {
+      "trigger": "riemann.boundary/boundary\temail token",
+      "contents": "riemann.boundary/boundary ${1:email} ${2:token}"
+    },
+    {
+      "trigger": "riemann.campfire/campfire\ttoken ssl sub-domain room-name",
+      "contents": "riemann.campfire/campfire ${1:token} ${2:ssl} ${3:sub-domain} ${4:room-name}"
+    },
+    {
+      "trigger": "riemann.campfire/campfire_message\te",
+      "contents": "riemann.campfire/campfire_message ${1:e}"
+    },
+    {
+      "trigger": "riemann.campfire/cf-settings\ttoken ssl sub-domain",
+      "contents": "riemann.campfire/cf-settings ${1:token} ${2:ssl} ${3:sub-domain}"
+    },
+    {
+      "trigger": "riemann.campfire/room\tsettings room-name",
+      "contents": "riemann.campfire/room ${1:settings} ${2:room-name}"
+    },
+    {
+      "trigger": "riemann.cloudwatch/cloudwatch\topts",
+      "contents": "riemann.cloudwatch/cloudwatch ${1:opts}"
+    },
+    {
+      "trigger": "riemann.cloudwatch/generate-datapoint\tevent",
+      "contents": "riemann.cloudwatch/generate-datapoint ${1:event}"
+    },
+    {
+      "trigger": "riemann.common/approx-equal\tx y",
+      "contents": "riemann.common/approx-equal ${1:x} ${2:y}"
+    },
+    {
+      "trigger": "riemann.common/approx-equal\tx y tol",
+      "contents": "riemann.common/approx-equal ${1:x} ${2:y} ${3:tol}"
+    },
+    {
+      "trigger": "riemann.common/body\tevents",
+      "contents": "riemann.common/body ${1:events}"
+    },
+    {
+      "trigger": "riemann.common/custom-attributes\tevent",
+      "contents": "riemann.common/custom-attributes ${1:event}"
+    },
+    {
+      "trigger": "riemann.common/decode-inputstream\ts",
+      "contents": "riemann.common/decode-inputstream ${1:s}"
+    },
+    {
+      "trigger": "riemann.common/decode-msg\tmsg",
+      "contents": "riemann.common/decode-msg ${1:msg}"
+    },
+    {
+      "trigger": "riemann.common/deprecated\tcomment & body",
+      "contents": "riemann.common/deprecated ${1:comment} ${2:&} ${3:body}"
+    },
+    {
+      "trigger": "riemann.common/disjoint?\ta b",
+      "contents": "riemann.common/disjoint? ${1:a} ${2:b}"
+    },
+    {
+      "trigger": "riemann.common/encode\tmsg",
+      "contents": "riemann.common/encode ${1:msg}"
+    },
+    {
+      "trigger": "riemann.common/ensure-event-time\te",
+      "contents": "riemann.common/ensure-event-time ${1:e}"
+    },
+    {
+      "trigger": "riemann.common/event\topts",
+      "contents": "riemann.common/event ${1:opts}"
+    },
+    {
+      "trigger": "riemann.common/event-to-json\tevent",
+      "contents": "riemann.common/event-to-json ${1:event}"
+    },
+    {
+      "trigger": "riemann.common/exception->event\texception",
+      "contents": "riemann.common/exception->event ${1:exception}"
+    },
+    {
+      "trigger": "riemann.common/exception->event\te original",
+      "contents": "riemann.common/exception->event ${1:e} ${2:original}"
+    },
+    {
+      "trigger": "riemann.common/expire\tevent",
+      "contents": "riemann.common/expire ${1:event}"
+    },
+    {
+      "trigger": "riemann.common/get-hostname\t[age val]",
+      "contents": "riemann.common/get-hostname ${1:[age} ${2:val]}"
+    },
+    {
+      "trigger": "riemann.common/human-uniq\tthings type",
+      "contents": "riemann.common/human-uniq ${1:things} ${2:type}"
+    },
+    {
+      "trigger": "riemann.common/iso8601->unix\tiso8601",
+      "contents": "riemann.common/iso8601->unix ${1:iso8601}"
+    },
+    "riemann.common/localhost",
+    {
+      "trigger": "riemann.common/map-matches?\tpat obj",
+      "contents": "riemann.common/map-matches? ${1:pat} ${2:obj}"
+    },
+    {
+      "trigger": "riemann.common/match\tpred object",
+      "contents": "riemann.common/match ${1:pred} ${2:object}"
+    },
+    {
+      "trigger": "riemann.common/member?\tr s",
+      "contents": "riemann.common/member? ${1:r} ${2:s}"
+    },
+    {
+      "trigger": "riemann.common/middle\ts",
+      "contents": "riemann.common/middle ${1:s}"
+    },
+    {
+      "trigger": "riemann.common/overlap?\ta b",
+      "contents": "riemann.common/overlap? ${1:a} ${2:b}"
+    },
+    {
+      "trigger": "riemann.common/pkey\tevent",
+      "contents": "riemann.common/pkey ${1:event}"
+    },
+    {
+      "trigger": "riemann.common/post-load-event\te",
+      "contents": "riemann.common/post-load-event ${1:e}"
+    },
+    {
+      "trigger": "riemann.common/re-matches?\tre string",
+      "contents": "riemann.common/re-matches? ${1:re} ${2:string}"
+    },
+    {
+      "trigger": "riemann.common/subject\tevents",
+      "contents": "riemann.common/subject ${1:events}"
+    },
+    {
+      "trigger": "riemann.common/subset?\trequired s",
+      "contents": "riemann.common/subset? ${1:required} ${2:s}"
+    },
+    {
+      "trigger": "riemann.common/time-at\tunix-time",
+      "contents": "riemann.common/time-at ${1:unix-time}"
+    },
+    {
+      "trigger": "riemann.common/unix-to-iso8601\tunix",
+      "contents": "riemann.common/unix-to-iso8601 ${1:unix}"
+    },
+    "apply!",
+    {
+      "trigger": "async-queue!\tname threadpool-service-opts & children",
+      "contents": "async-queue! ${1:name} ${2:threadpool-service-opts} ${3:&} ${4:children}"
+    },
+    "clear!",
+    {
+      "trigger": "config-file-path\tpath",
+      "contents": "config-file-path ${1:path}"
+    },
+    "delete-from-index",
+    {
+      "trigger": "delete-from-index\tfields",
+      "contents": "delete-from-index ${1:fields}"
+    },
+    {
+      "trigger": "depend\tplugin artifact version options",
+      "contents": "depend ${1:plugin} ${2:artifact} ${3:version} ${4:options}"
+    },
+    {
+      "trigger": "graphite-server\t& opts",
+      "contents": "graphite-server ${1:&} ${2:opts}"
+    },
+    {
+      "trigger": "include\tpath",
+      "contents": "include ${1:path}"
+    },
+    {
+      "trigger": "index\t& opts",
+      "contents": "index ${1:&} ${2:opts}"
+    },
+    {
+      "trigger": "instrumentation\t& opts",
+      "contents": "instrumentation ${1:&} ${2:opts}"
+    },
+    {
+      "trigger": "kwargs-or-map\topts",
+      "contents": "kwargs-or-map ${1:opts}"
+    },
+    {
+      "trigger": "local-repo\tpath",
+      "contents": "local-repo ${1:path}"
+    },
+    {
+      "trigger": "opentsdb-server\t& opts",
+      "contents": "opentsdb-server ${1:&} ${2:opts}"
+    },
+    "periodically-expire",
+    {
+      "trigger": "periodically-expire\t& args",
+      "contents": "periodically-expire ${1:&} ${2:args}"
+    },
+    {
+      "trigger": "publish\tchannel",
+      "contents": "publish ${1:channel}"
+    },
+    {
+      "trigger": "read-strings\tstring",
+      "contents": "read-strings ${1:string}"
+    },
+    {
+      "trigger": "read-strings\tforms reader",
+      "contents": "read-strings ${1:forms} ${2:reader}"
+    },
+    {
+      "trigger": "reinject\tevent",
+      "contents": "reinject ${1:event}"
+    },
+    {
+      "trigger": "repl-server\t& opts",
+      "contents": "repl-server ${1:&} ${2:opts}"
+    },
+    {
+      "trigger": "service!\tservice",
+      "contents": "service! ${1:service}"
+    },
+    {
+      "trigger": "sse-server\t& opts",
+      "contents": "sse-server ${1:&} ${2:opts}"
+    },
+    "start!",
+    "stop!",
+    {
+      "trigger": "streams\t& things",
+      "contents": "streams ${1:&} ${2:things}"
+    },
+    {
+      "trigger": "subscribe\tchannel f",
+      "contents": "subscribe ${1:channel} ${2:f}"
+    },
+    {
+      "trigger": "tcp-server\t& opts",
+      "contents": "tcp-server ${1:&} ${2:opts}"
+    },
+    {
+      "trigger": "udp-server\t& opts",
+      "contents": "udp-server ${1:&} ${2:opts}"
+    },
+    {
+      "trigger": "update-index\tindex",
+      "contents": "update-index ${1:index}"
+    },
+    {
+      "trigger": "validate-config\tfile",
+      "contents": "validate-config ${1:file}"
+    },
+    {
+      "trigger": "ws-server\t& opts",
+      "contents": "ws-server ${1:&} ${2:opts}"
+    },
+    {
+      "trigger": "riemann.core/->Core\tstreams services index pubsub streaming-metric",
+      "contents": "riemann.core/->Core ${1:streams} ${2:services} ${3:index} ${4:pubsub} ${5:streaming-metric}"
+    },
+    {
+      "trigger": "riemann.core/conj-service\tcore service",
+      "contents": "riemann.core/conj-service ${1:core} ${2:service}"
+    },
+    {
+      "trigger": "riemann.core/conj-service\tcore service force?",
+      "contents": "riemann.core/conj-service ${1:core} ${2:service} ${3:force?}"
+    },
+    "riemann.core/core",
+    {
+      "trigger": "riemann.core/core-services\tcore",
+      "contents": "riemann.core/core-services ${1:core}"
+    },
+    {
+      "trigger": "riemann.core/delete-from-index\tcore event",
+      "contents": "riemann.core/delete-from-index ${1:core} ${2:event}"
+    },
+    {
+      "trigger": "riemann.core/delete-from-index\tcore fields event",
+      "contents": "riemann.core/delete-from-index ${1:core} ${2:fields} ${3:event}"
+    },
+    {
+      "trigger": "riemann.core/instrumentation-service\topts",
+      "contents": "riemann.core/instrumentation-service ${1:opts}"
+    },
+    {
+      "trigger": "riemann.core/map->Core\tm__5869__auto__",
+      "contents": "riemann.core/map->Core ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.core/merge-cores\told-core new-core",
+      "contents": "riemann.core/merge-cores ${1:old-core} ${2:new-core}"
+    },
+    "riemann.core/reaper",
+    {
+      "trigger": "riemann.core/reaper\tinterval",
+      "contents": "riemann.core/reaper ${1:interval}"
+    },
+    {
+      "trigger": "riemann.core/reaper\tinterval opts",
+      "contents": "riemann.core/reaper ${1:interval} ${2:opts}"
+    },
+    {
+      "trigger": "riemann.core/start!\tcore",
+      "contents": "riemann.core/start! ${1:core}"
+    },
+    {
+      "trigger": "riemann.core/stop!\tcore",
+      "contents": "riemann.core/stop! ${1:core}"
+    },
+    {
+      "trigger": "riemann.core/stream!\tcore event",
+      "contents": "riemann.core/stream! ${1:core} ${2:event}"
+    },
+    {
+      "trigger": "riemann.core/transition!\told-core new-core",
+      "contents": "riemann.core/transition! ${1:old-core} ${2:new-core}"
+    },
+    {
+      "trigger": "riemann.core/update-index\tcore event",
+      "contents": "riemann.core/update-index ${1:core} ${2:event}"
+    },
+    {
+      "trigger": "riemann.core/wrap-index\tsource",
+      "contents": "riemann.core/wrap-index ${1:source}"
+    },
+    {
+      "trigger": "riemann.core/wrap-index\tsource registry",
+      "contents": "riemann.core/wrap-index ${1:source} ${2:registry}"
+    },
+    {
+      "trigger": "riemann.datadog/datadog\topts",
+      "contents": "riemann.datadog/datadog ${1:opts}"
+    },
+    {
+      "trigger": "riemann.datadog/datadog-metric-name\tevent",
+      "contents": "riemann.datadog/datadog-metric-name ${1:event}"
+    },
+    {
+      "trigger": "riemann.datadog/generate-datapoint\tevent",
+      "contents": "riemann.datadog/generate-datapoint ${1:event}"
+    },
+    {
+      "trigger": "riemann.datadog/post-datapoint\tapi-key data",
+      "contents": "riemann.datadog/post-datapoint ${1:api-key} ${2:data}"
+    },
+    {
+      "trigger": "riemann.deps/->All\trules",
+      "contents": "riemann.deps/->All ${1:rules}"
+    },
+    {
+      "trigger": "riemann.deps/->Any\trules",
+      "contents": "riemann.deps/->Any ${1:rules}"
+    },
+    {
+      "trigger": "riemann.deps/->Depends\ta b",
+      "contents": "riemann.deps/->Depends ${1:a} ${2:b}"
+    },
+    {
+      "trigger": "riemann.deps/->Localhost\trule",
+      "contents": "riemann.deps/->Localhost ${1:rule}"
+    },
+    {
+      "trigger": "riemann.deps/map->All\tm__5869__auto__",
+      "contents": "riemann.deps/map->All ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.deps/map->Any\tm__5869__auto__",
+      "contents": "riemann.deps/map->Any ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.deps/map->Depends\tm__5869__auto__",
+      "contents": "riemann.deps/map->Depends ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.deps/map->Localhost\tm__5869__auto__",
+      "contents": "riemann.deps/map->Localhost ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.email/email-event\tsmtp-opts msg-opts events",
+      "contents": "riemann.email/email-event ${1:smtp-opts} ${2:msg-opts} ${3:events}"
+    },
+    "riemann.email/mailer",
+    {
+      "trigger": "riemann.email/mailer\topts",
+      "contents": "riemann.email/mailer ${1:opts}"
+    },
+    {
+      "trigger": "riemann.email/mailer\tsmtp-opts msg-opts",
+      "contents": "riemann.email/mailer ${1:smtp-opts} ${2:msg-opts}"
+    },
+    {
+      "trigger": "riemann.expiration/->PriorityMapTracker\tevents task",
+      "contents": "riemann.expiration/->PriorityMapTracker ${1:events} ${2:task}"
+    },
+    {
+      "trigger": "riemann.expiration/expiration-time\tevent",
+      "contents": "riemann.expiration/expiration-time ${1:event}"
+    },
+    {
+      "trigger": "riemann.expiration/expired-events!\tt",
+      "contents": "riemann.expiration/expired-events! ${1:t}"
+    },
+    {
+      "trigger": "riemann.expiration/expired?\tevent",
+      "contents": "riemann.expiration/expired? ${1:event}"
+    },
+    {
+      "trigger": "riemann.expiration/map->PriorityMapTracker\tm__5869__auto__",
+      "contents": "riemann.expiration/map->PriorityMapTracker ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.expiration/shutdown!\tt",
+      "contents": "riemann.expiration/shutdown! ${1:t}"
+    },
+    {
+      "trigger": "riemann.expiration/tracker!\texpired-sink",
+      "contents": "riemann.expiration/tracker! ${1:expired-sink}"
+    },
+    {
+      "trigger": "riemann.expiration/tracker!\texpired-sink expiration-interval",
+      "contents": "riemann.expiration/tracker! ${1:expired-sink} ${2:expiration-interval}"
+    },
+    {
+      "trigger": "riemann.expiration/update!\tt event",
+      "contents": "riemann.expiration/update! ${1:t} ${2:event}"
+    },
+    {
+      "trigger": "riemann.folds/count\tevents",
+      "contents": "riemann.folds/count ${1:events}"
+    },
+    {
+      "trigger": "riemann.folds/difference\tevents",
+      "contents": "riemann.folds/difference ${1:events}"
+    },
+    {
+      "trigger": "riemann.folds/difference*\tevents",
+      "contents": "riemann.folds/difference* ${1:events}"
+    },
+    {
+      "trigger": "riemann.folds/extremum\tcomparison events",
+      "contents": "riemann.folds/extremum ${1:comparison} ${2:events}"
+    },
+    {
+      "trigger": "riemann.folds/fold\tf events",
+      "contents": "riemann.folds/fold ${1:f} ${2:events}"
+    },
+    {
+      "trigger": "riemann.folds/fold*\tf events",
+      "contents": "riemann.folds/fold* ${1:f} ${2:events}"
+    },
+    {
+      "trigger": "riemann.folds/fold-all\tf events",
+      "contents": "riemann.folds/fold-all ${1:f} ${2:events}"
+    },
+    {
+      "trigger": "riemann.folds/maximum\tevents",
+      "contents": "riemann.folds/maximum ${1:events}"
+    },
+    {
+      "trigger": "riemann.folds/mean\tevents",
+      "contents": "riemann.folds/mean ${1:events}"
+    },
+    {
+      "trigger": "riemann.folds/median\tevents",
+      "contents": "riemann.folds/median ${1:events}"
+    },
+    {
+      "trigger": "riemann.folds/minimum\tevents",
+      "contents": "riemann.folds/minimum ${1:events}"
+    },
+    {
+      "trigger": "riemann.folds/non-nil-metrics\tevents",
+      "contents": "riemann.folds/non-nil-metrics ${1:events}"
+    },
+    {
+      "trigger": "riemann.folds/product\tevents",
+      "contents": "riemann.folds/product ${1:events}"
+    },
+    {
+      "trigger": "riemann.folds/product*\tevents",
+      "contents": "riemann.folds/product* ${1:events}"
+    },
+    {
+      "trigger": "riemann.folds/quotient\tevents",
+      "contents": "riemann.folds/quotient ${1:events}"
+    },
+    {
+      "trigger": "riemann.folds/quotient*\tevents",
+      "contents": "riemann.folds/quotient* ${1:events}"
+    },
+    {
+      "trigger": "riemann.folds/quotient-sloppy\tevents",
+      "contents": "riemann.folds/quotient-sloppy ${1:events}"
+    },
+    {
+      "trigger": "riemann.folds/sorted-sample\ts points",
+      "contents": "riemann.folds/sorted-sample ${1:s} ${2:points}"
+    },
+    {
+      "trigger": "riemann.folds/sorted-sample-extract\ts points",
+      "contents": "riemann.folds/sorted-sample-extract ${1:s} ${2:points}"
+    },
+    {
+      "trigger": "riemann.folds/std-dev\tevents",
+      "contents": "riemann.folds/std-dev ${1:events}"
+    },
+    {
+      "trigger": "riemann.folds/sum\tevents",
+      "contents": "riemann.folds/sum ${1:events}"
+    },
+    {
+      "trigger": "riemann.folds/sum*\tevents",
+      "contents": "riemann.folds/sum* ${1:events}"
+    },
+    {
+      "trigger": "riemann.graphite/->GraphiteTCPClient\thost port",
+      "contents": "riemann.graphite/->GraphiteTCPClient ${1:host} ${2:port}"
+    },
+    {
+      "trigger": "riemann.graphite/->GraphiteUDPClient\thost port",
+      "contents": "riemann.graphite/->GraphiteUDPClient ${1:host} ${2:port}"
+    },
+    {
+      "trigger": "riemann.graphite/close\tclient",
+      "contents": "riemann.graphite/close ${1:client}"
+    },
+    {
+      "trigger": "riemann.graphite/graphite\topts",
+      "contents": "riemann.graphite/graphite ${1:opts}"
+    },
+    {
+      "trigger": "riemann.graphite/graphite-path-basic\tevent",
+      "contents": "riemann.graphite/graphite-path-basic ${1:event}"
+    },
+    {
+      "trigger": "riemann.graphite/graphite-path-percentiles\tevent",
+      "contents": "riemann.graphite/graphite-path-percentiles ${1:event}"
+    },
+    {
+      "trigger": "riemann.graphite/map->GraphiteTCPClient\tm__5869__auto__",
+      "contents": "riemann.graphite/map->GraphiteTCPClient ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.graphite/map->GraphiteUDPClient\tm__5869__auto__",
+      "contents": "riemann.graphite/map->GraphiteUDPClient ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.graphite/open\tclient",
+      "contents": "riemann.graphite/open ${1:client}"
+    },
+    {
+      "trigger": "riemann.graphite/send-line\tclient line",
+      "contents": "riemann.graphite/send-line ${1:client} ${2:line}"
+    },
+    {
+      "trigger": "riemann.hipchat/hipchat\t{:keys [server token room notify]}",
+      "contents": "riemann.hipchat/hipchat ${1:{:keys} ${2:[server} ${3:token} ${4:room} ${5:notify]}}"
+    },
+    {
+      "trigger": "riemann.index/clear\tthis",
+      "contents": "riemann.index/clear ${1:this}"
+    },
+    {
+      "trigger": "riemann.index/delete\tthis event",
+      "contents": "riemann.index/delete ${1:this} ${2:event}"
+    },
+    {
+      "trigger": "riemann.index/delete-exactly\tthis event",
+      "contents": "riemann.index/delete-exactly ${1:this} ${2:event}"
+    },
+    {
+      "trigger": "riemann.index/expire\tthis",
+      "contents": "riemann.index/expire ${1:this}"
+    },
+    "riemann.index/index",
+    {
+      "trigger": "riemann.index/lookup\tthis host service",
+      "contents": "riemann.index/lookup ${1:this} ${2:host} ${3:service}"
+    },
+    "riemann.index/nbhm-index",
+    {
+      "trigger": "riemann.index/query-for-host-and-service\tquery-ast",
+      "contents": "riemann.index/query-for-host-and-service ${1:query-ast}"
+    },
+    {
+      "trigger": "riemann.index/search\tthis query-ast",
+      "contents": "riemann.index/search ${1:this} ${2:query-ast}"
+    },
+    {
+      "trigger": "riemann.index/update\tthis event",
+      "contents": "riemann.index/update ${1:this} ${2:event}"
+    },
+    {
+      "trigger": "riemann.influxdb/event->point-8\tevent",
+      "contents": "riemann.influxdb/event->point-8 ${1:event}"
+    },
+    {
+      "trigger": "riemann.influxdb/event->point-9\ttag-fields event",
+      "contents": "riemann.influxdb/event->point-9 ${1:tag-fields} ${2:event}"
+    },
+    {
+      "trigger": "riemann.influxdb/event-fields\ttag-fields event",
+      "contents": "riemann.influxdb/event-fields ${1:tag-fields} ${2:event}"
+    },
+    {
+      "trigger": "riemann.influxdb/event-tags\ttag-fields event",
+      "contents": "riemann.influxdb/event-tags ${1:tag-fields} ${2:event}"
+    },
+    {
+      "trigger": "riemann.influxdb/events->points-8\tseries-fn events",
+      "contents": "riemann.influxdb/events->points-8 ${1:series-fn} ${2:events}"
+    },
+    {
+      "trigger": "riemann.influxdb/events->points-9\ttag-fields events",
+      "contents": "riemann.influxdb/events->points-9 ${1:tag-fields} ${2:events}"
+    },
+    {
+      "trigger": "riemann.influxdb/influxdb\topts",
+      "contents": "riemann.influxdb/influxdb ${1:opts}"
+    },
+    {
+      "trigger": "riemann.influxdb/influxdb-8\topts",
+      "contents": "riemann.influxdb/influxdb-8 ${1:opts}"
+    },
+    {
+      "trigger": "riemann.influxdb/influxdb-9\topts",
+      "contents": "riemann.influxdb/influxdb-9 ${1:opts}"
+    },
+    {
+      "trigger": "riemann.instrumentation/->RateLatency\tevent quantiles rate latencies",
+      "contents": "riemann.instrumentation/->RateLatency ${1:event} ${2:quantiles} ${3:rate} ${4:latencies}"
+    },
+    {
+      "trigger": "riemann.instrumentation/events\tthis",
+      "contents": "riemann.instrumentation/events ${1:this}"
+    },
+    {
+      "trigger": "riemann.instrumentation/instrumented?\tthingy",
+      "contents": "riemann.instrumentation/instrumented? ${1:thingy}"
+    },
+    {
+      "trigger": "riemann.instrumentation/map->RateLatency\tm__5869__auto__",
+      "contents": "riemann.instrumentation/map->RateLatency ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.instrumentation/measure-latency\tmetric & body",
+      "contents": "riemann.instrumentation/measure-latency ${1:metric} ${2:&} ${3:body}"
+    },
+    {
+      "trigger": "riemann.instrumentation/nanos->millis\tnanos",
+      "contents": "riemann.instrumentation/nanos->millis ${1:nanos}"
+    },
+    {
+      "trigger": "riemann.instrumentation/rate+latency\tevent",
+      "contents": "riemann.instrumentation/rate+latency ${1:event}"
+    },
+    {
+      "trigger": "riemann.instrumentation/rate+latency\tev quantiles",
+      "contents": "riemann.instrumentation/rate+latency ${1:ev} ${2:quantiles}"
+    },
+    {
+      "trigger": "riemann.kairosdb/->KairosDBTelnetClient\thost port",
+      "contents": "riemann.kairosdb/->KairosDBTelnetClient ${1:host} ${2:port}"
+    },
+    {
+      "trigger": "riemann.kairosdb/close\tclient",
+      "contents": "riemann.kairosdb/close ${1:client}"
+    },
+    {
+      "trigger": "riemann.kairosdb/kairosdb\topts",
+      "contents": "riemann.kairosdb/kairosdb ${1:opts}"
+    },
+    {
+      "trigger": "riemann.kairosdb/kairosdb-metric-name\tevent",
+      "contents": "riemann.kairosdb/kairosdb-metric-name ${1:event}"
+    },
+    {
+      "trigger": "riemann.kairosdb/kairosdb-tags\tevent",
+      "contents": "riemann.kairosdb/kairosdb-tags ${1:event}"
+    },
+    {
+      "trigger": "riemann.kairosdb/map->KairosDBTelnetClient\tm__5869__auto__",
+      "contents": "riemann.kairosdb/map->KairosDBTelnetClient ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.kairosdb/open\tclient",
+      "contents": "riemann.kairosdb/open ${1:client}"
+    },
+    {
+      "trigger": "riemann.kairosdb/send-line\tclient line",
+      "contents": "riemann.kairosdb/send-line ${1:client} ${2:line}"
+    },
+    {
+      "trigger": "riemann.keenio/keenio\tcollection project-id write-key",
+      "contents": "riemann.keenio/keenio ${1:collection} ${2:project-id} ${3:write-key}"
+    },
+    {
+      "trigger": "riemann.keenio/post\tcollection project-id write-key request",
+      "contents": "riemann.keenio/post ${1:collection} ${2:project-id} ${3:write-key} ${4:request}"
+    },
+    {
+      "trigger": "riemann.librato/event->annotation\tevent",
+      "contents": "riemann.librato/event->annotation ${1:event}"
+    },
+    {
+      "trigger": "riemann.librato/event->gauge\tevent",
+      "contents": "riemann.librato/event->gauge ${1:event}"
+    },
+    {
+      "trigger": "riemann.librato/librato-metrics\tuser api-key",
+      "contents": "riemann.librato/librato-metrics ${1:user} ${2:api-key}"
+    },
+    {
+      "trigger": "riemann.librato/librato-metrics\tuser api-key connection-mgr-options",
+      "contents": "riemann.librato/librato-metrics ${1:user} ${2:api-key} ${3:connection-mgr-options}"
+    },
+    {
+      "trigger": "riemann.librato/safe-name\ts",
+      "contents": "riemann.librato/safe-name ${1:s}"
+    },
+    {
+      "trigger": "riemann.logentries/->LogentriesTokenClient\thost port token",
+      "contents": "riemann.logentries/->LogentriesTokenClient ${1:host} ${2:port} ${3:token}"
+    },
+    {
+      "trigger": "riemann.logentries/close\tclient",
+      "contents": "riemann.logentries/close ${1:client}"
+    },
+    {
+      "trigger": "riemann.logentries/logentries\topts",
+      "contents": "riemann.logentries/logentries ${1:opts}"
+    },
+    {
+      "trigger": "riemann.logentries/map->LogentriesTokenClient\tm__5869__auto__",
+      "contents": "riemann.logentries/map->LogentriesTokenClient ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.logentries/open\tclient",
+      "contents": "riemann.logentries/open ${1:client}"
+    },
+    {
+      "trigger": "riemann.logentries/send-line\tclient line",
+      "contents": "riemann.logentries/send-line ${1:client} ${2:line}"
+    },
+    {
+      "trigger": "riemann.logging/get-layout\tlayout-name",
+      "contents": "riemann.logging/get-layout ${1:layout-name}"
+    },
+    {
+      "trigger": "riemann.logging/init\t& opts",
+      "contents": "riemann.logging/init ${1:&} ${2:opts}"
+    },
+    {
+      "trigger": "riemann.logging/nice-syntax-error\te",
+      "contents": "riemann.logging/nice-syntax-error ${1:e}"
+    },
+    {
+      "trigger": "riemann.logging/nice-syntax-error\te file",
+      "contents": "riemann.logging/nice-syntax-error ${1:e} ${2:file}"
+    },
+    {
+      "trigger": "riemann.logging/set-level\tlevel",
+      "contents": "riemann.logging/set-level ${1:level}"
+    },
+    {
+      "trigger": "riemann.logging/set-level\tlogger level",
+      "contents": "riemann.logging/set-level ${1:logger} ${2:level}"
+    },
+    {
+      "trigger": "riemann.logging/suppress\tloggers & body",
+      "contents": "riemann.logging/suppress ${1:loggers} ${2:&} ${3:body}"
+    },
+    {
+      "trigger": "riemann.logstash/->LogStashTCPClient\thost port",
+      "contents": "riemann.logstash/->LogStashTCPClient ${1:host} ${2:port}"
+    },
+    {
+      "trigger": "riemann.logstash/->LogStashUDPClient\thost port",
+      "contents": "riemann.logstash/->LogStashUDPClient ${1:host} ${2:port}"
+    },
+    {
+      "trigger": "riemann.logstash/close\tclient",
+      "contents": "riemann.logstash/close ${1:client}"
+    },
+    {
+      "trigger": "riemann.logstash/logstash\topts",
+      "contents": "riemann.logstash/logstash ${1:opts}"
+    },
+    {
+      "trigger": "riemann.logstash/map->LogStashTCPClient\tm__5869__auto__",
+      "contents": "riemann.logstash/map->LogStashTCPClient ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.logstash/map->LogStashUDPClient\tm__5869__auto__",
+      "contents": "riemann.logstash/map->LogStashUDPClient ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.logstash/open\tclient",
+      "contents": "riemann.logstash/open ${1:client}"
+    },
+    {
+      "trigger": "riemann.logstash/send-line\tclient line",
+      "contents": "riemann.logstash/send-line ${1:client} ${2:line}"
+    },
+    "riemann.mailgun/mailgun",
+    {
+      "trigger": "riemann.mailgun/mailgun\topts",
+      "contents": "riemann.mailgun/mailgun ${1:opts}"
+    },
+    {
+      "trigger": "riemann.mailgun/mailgun\tmgun-opts msg-opts",
+      "contents": "riemann.mailgun/mailgun ${1:mgun-opts} ${2:msg-opts}"
+    },
+    {
+      "trigger": "riemann.mailgun/mailgun-event\tmgun-opts msg-opts events",
+      "contents": "riemann.mailgun/mailgun-event ${1:mgun-opts} ${2:msg-opts} ${3:events}"
+    },
+    {
+      "trigger": "riemann.nagios/event->nagios\te",
+      "contents": "riemann.nagios/event->nagios ${1:e}"
+    },
+    {
+      "trigger": "riemann.nagios/nagios\topts",
+      "contents": "riemann.nagios/nagios ${1:opts}"
+    },
+    {
+      "trigger": "riemann.opentsdb/->OpenTSDBTelnetClient\thost port",
+      "contents": "riemann.opentsdb/->OpenTSDBTelnetClient ${1:host} ${2:port}"
+    },
+    {
+      "trigger": "riemann.opentsdb/close\tclient",
+      "contents": "riemann.opentsdb/close ${1:client}"
+    },
+    {
+      "trigger": "riemann.opentsdb/map->OpenTSDBTelnetClient\tm__5869__auto__",
+      "contents": "riemann.opentsdb/map->OpenTSDBTelnetClient ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.opentsdb/open\tclient",
+      "contents": "riemann.opentsdb/open ${1:client}"
+    },
+    {
+      "trigger": "riemann.opentsdb/opentsdb\topts",
+      "contents": "riemann.opentsdb/opentsdb ${1:opts}"
+    },
+    {
+      "trigger": "riemann.opentsdb/opentsdb-metric-name\tevent",
+      "contents": "riemann.opentsdb/opentsdb-metric-name ${1:event}"
+    },
+    {
+      "trigger": "riemann.opentsdb/opentsdb-tags\tevent",
+      "contents": "riemann.opentsdb/opentsdb-tags ${1:event}"
+    },
+    {
+      "trigger": "riemann.opentsdb/send-line\tclient line",
+      "contents": "riemann.opentsdb/send-line ${1:client} ${2:line}"
+    },
+    {
+      "trigger": "riemann.opsgenie/opsgenie\tservice-key recipients",
+      "contents": "riemann.opsgenie/opsgenie ${1:service-key} ${2:recipients}"
+    },
+    {
+      "trigger": "riemann.pagerduty/pagerduty\tservice-key",
+      "contents": "riemann.pagerduty/pagerduty ${1:service-key}"
+    },
+    {
+      "trigger": "riemann.plugin/load-from-meta\t{:keys [plugin require]} {:keys [alias]}",
+      "contents": "riemann.plugin/load-from-meta ${1:{:keys} ${2:[plugin} ${3:require]}} ${4:{:keys} ${5:[alias]}}"
+    },
+    {
+      "trigger": "riemann.plugin/load-from-resource\tsrc options",
+      "contents": "riemann.plugin/load-from-resource ${1:src} ${2:options}"
+    },
+    {
+      "trigger": "riemann.plugin/load-plugin\tplugin",
+      "contents": "riemann.plugin/load-plugin ${1:plugin}"
+    },
+    {
+      "trigger": "riemann.plugin/load-plugin\tplugin options",
+      "contents": "riemann.plugin/load-plugin ${1:plugin} ${2:options}"
+    },
+    {
+      "trigger": "riemann.plugin/load-plugins\toptions",
+      "contents": "riemann.plugin/load-plugins ${1:options}"
+    },
+    "riemann.plugin/load-plugins",
+    {
+      "trigger": "riemann.plugin/read-safely\tsrc",
+      "contents": "riemann.plugin/read-safely ${1:src}"
+    },
+    {
+      "trigger": "riemann.pool/->FixedQueuePool\tqueue open close regenerate-interval",
+      "contents": "riemann.pool/->FixedQueuePool ${1:queue} ${2:open} ${3:close} ${4:regenerate-interval}"
+    },
+    {
+      "trigger": "riemann.pool/claim\tpool",
+      "contents": "riemann.pool/claim ${1:pool}"
+    },
+    {
+      "trigger": "riemann.pool/claim\tpool timeout",
+      "contents": "riemann.pool/claim ${1:pool} ${2:timeout}"
+    },
+    {
+      "trigger": "riemann.pool/fixed-pool\topen",
+      "contents": "riemann.pool/fixed-pool ${1:open}"
+    },
+    {
+      "trigger": "riemann.pool/fixed-pool\topen opts",
+      "contents": "riemann.pool/fixed-pool ${1:open} ${2:opts}"
+    },
+    {
+      "trigger": "riemann.pool/fixed-pool\topen close opts",
+      "contents": "riemann.pool/fixed-pool ${1:open} ${2:close} ${3:opts}"
+    },
+    {
+      "trigger": "riemann.pool/grow\tpool",
+      "contents": "riemann.pool/grow ${1:pool}"
+    },
+    {
+      "trigger": "riemann.pool/invalidate\tpool thingy",
+      "contents": "riemann.pool/invalidate ${1:pool} ${2:thingy}"
+    },
+    {
+      "trigger": "riemann.pool/map->FixedQueuePool\tm__5869__auto__",
+      "contents": "riemann.pool/map->FixedQueuePool ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.pool/release\tpool thingy",
+      "contents": "riemann.pool/release ${1:pool} ${2:thingy}"
+    },
+    {
+      "trigger": "riemann.pool/with-pool\t[thingy pool timeout] & body",
+      "contents": "riemann.pool/with-pool ${1:[thingy} ${2:pool} ${3:timeout]} ${4:&} ${5:body}"
+    },
+    {
+      "trigger": "riemann.pubsub/->PubSubService\tcore channels",
+      "contents": "riemann.pubsub/->PubSubService ${1:core} ${2:channels}"
+    },
+    {
+      "trigger": "riemann.pubsub/->Subscription\tchannel id f persistent?",
+      "contents": "riemann.pubsub/->Subscription ${1:channel} ${2:id} ${3:f} ${4:persistent?}"
+    },
+    {
+      "trigger": "riemann.pubsub/dissoc-in\tm [k & ks :as keys]",
+      "contents": "riemann.pubsub/dissoc-in ${1:m} ${2:[k} ${3:&} ${4:ks} ${5::as} ${6:keys]}"
+    },
+    {
+      "trigger": "riemann.pubsub/map->PubSubService\tm__5869__auto__",
+      "contents": "riemann.pubsub/map->PubSubService ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.pubsub/map->Subscription\tm__5869__auto__",
+      "contents": "riemann.pubsub/map->Subscription ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.pubsub/publish!\tthis channel event",
+      "contents": "riemann.pubsub/publish! ${1:this} ${2:channel} ${3:event}"
+    },
+    "riemann.pubsub/pubsub-registry",
+    "riemann.pubsub/sub-id",
+    {
+      "trigger": "riemann.pubsub/subscribe!\tthis channel f",
+      "contents": "riemann.pubsub/subscribe! ${1:this} ${2:channel} ${3:f}"
+    },
+    {
+      "trigger": "riemann.pubsub/subscribe!\tthis channel f persistent?",
+      "contents": "riemann.pubsub/subscribe! ${1:this} ${2:channel} ${3:f} ${4:persistent?}"
+    },
+    {
+      "trigger": "riemann.pubsub/sweep!\tthis",
+      "contents": "riemann.pubsub/sweep! ${1:this}"
+    },
+    {
+      "trigger": "riemann.pubsub/unsubscribe!\tthis sub",
+      "contents": "riemann.pubsub/unsubscribe! ${1:this} ${2:sub}"
+    },
+    {
+      "trigger": "riemann.pushover/pushover\ttoken user",
+      "contents": "riemann.pushover/pushover ${1:token} ${2:user}"
+    },
+    {
+      "trigger": "riemann.query/antlr->ast\t[node-type & terms]",
+      "contents": "riemann.query/antlr->ast ${1:[node-type} ${2:&} ${3:terms]}"
+    },
+    {
+      "trigger": "riemann.query/ast\tstring",
+      "contents": "riemann.query/ast ${1:string}"
+    },
+    {
+      "trigger": "riemann.query/ast-predicate\tterms",
+      "contents": "riemann.query/ast-predicate ${1:terms}"
+    },
+    {
+      "trigger": "riemann.query/ast-prefix\tsym [t1 _ t2]",
+      "contents": "riemann.query/ast-prefix ${1:sym} ${2:[t1} ${3:_} ${4:t2]}"
+    },
+    {
+      "trigger": "riemann.query/ast-regex\ttype [string _ pattern]",
+      "contents": "riemann.query/ast-regex ${1:type} ${2:[string} ${3:_} ${4:pattern]}"
+    },
+    {
+      "trigger": "riemann.query/clj-ast\tast",
+      "contents": "riemann.query/clj-ast ${1:ast}"
+    },
+    {
+      "trigger": "riemann.query/clj-ast-field\tfield",
+      "contents": "riemann.query/clj-ast-field ${1:field}"
+    },
+    {
+      "trigger": "riemann.query/clj-ast-guarded-prefix\tf check [a b]",
+      "contents": "riemann.query/clj-ast-guarded-prefix ${1:f} ${2:check} ${3:[a} ${4:b]}"
+    },
+    {
+      "trigger": "riemann.query/clj-ast-regex-match\tpattern-transformer [pattern field]",
+      "contents": "riemann.query/clj-ast-regex-match ${1:pattern-transformer} ${2:[pattern} ${3:field]}"
+    },
+    {
+      "trigger": "riemann.query/clj-ast-tagged\ttag",
+      "contents": "riemann.query/clj-ast-tagged ${1:tag}"
+    },
+    {
+      "trigger": "riemann.query/fun\tast",
+      "contents": "riemann.query/fun ${1:ast}"
+    },
+    {
+      "trigger": "riemann.query/make-regex\tstring",
+      "contents": "riemann.query/make-regex ${1:string}"
+    },
+    {
+      "trigger": "riemann.repl/start-server\topts",
+      "contents": "riemann.repl/start-server ${1:opts}"
+    },
+    {
+      "trigger": "riemann.repl/start-server!\topts",
+      "contents": "riemann.repl/start-server! ${1:opts}"
+    },
+    "riemann.repl/stop-server!",
+    {
+      "trigger": "riemann.service/->ExecutorServiceService\tname equiv-key f executor stats",
+      "contents": "riemann.service/->ExecutorServiceService ${1:name} ${2:equiv-key} ${3:f} ${4:executor} ${5:stats}"
+    },
+    {
+      "trigger": "riemann.service/->ThreadService\tname equiv-key f core running thread",
+      "contents": "riemann.service/->ThreadService ${1:name} ${2:equiv-key} ${3:f} ${4:core} ${5:running} ${6:thread}"
+    },
+    {
+      "trigger": "riemann.service/all-equal?\ta b & forms",
+      "contents": "riemann.service/all-equal? ${1:a} ${2:b} ${3:&} ${4:forms}"
+    },
+    {
+      "trigger": "riemann.service/conflict?\tservice1 service2",
+      "contents": "riemann.service/conflict? ${1:service1} ${2:service2}"
+    },
+    {
+      "trigger": "riemann.service/equiv?\tservice1 service2",
+      "contents": "riemann.service/equiv? ${1:service1} ${2:service2}"
+    },
+    {
+      "trigger": "riemann.service/executor-service\tname f",
+      "contents": "riemann.service/executor-service ${1:name} ${2:f}"
+    },
+    {
+      "trigger": "riemann.service/executor-service\tname equiv-key f",
+      "contents": "riemann.service/executor-service ${1:name} ${2:equiv-key} ${3:f}"
+    },
+    {
+      "trigger": "riemann.service/literal-executor-service\tname executor-service-expr",
+      "contents": "riemann.service/literal-executor-service ${1:name} ${2:executor-service-expr}"
+    },
+    {
+      "trigger": "riemann.service/map->ThreadService\tm__5869__auto__",
+      "contents": "riemann.service/map->ThreadService ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.service/reload!\tservice core",
+      "contents": "riemann.service/reload! ${1:service} ${2:core}"
+    },
+    {
+      "trigger": "riemann.service/start!\tservice",
+      "contents": "riemann.service/start! ${1:service}"
+    },
+    {
+      "trigger": "riemann.service/stop!\tservice",
+      "contents": "riemann.service/stop! ${1:service}"
+    },
+    {
+      "trigger": "riemann.service/thread-service\tname f",
+      "contents": "riemann.service/thread-service ${1:name} ${2:f}"
+    },
+    {
+      "trigger": "riemann.service/thread-service\tname equiv-key f",
+      "contents": "riemann.service/thread-service ${1:name} ${2:equiv-key} ${3:f}"
+    },
+    {
+      "trigger": "riemann.service/threadpool-service\tname",
+      "contents": "riemann.service/threadpool-service ${1:name}"
+    },
+    {
+      "trigger": "riemann.service/threadpool-service\tname {:keys [core-pool-size max-pool-size keep-alive-time keep-alive-unit queue-size], :as opts, :or {core-pool-size 1, max-pool-size 128, keep-alive-time 10, keep-alive-unit TimeUnit/MILLISECONDS, queue-size 1000}}",
+      "contents": "riemann.service/threadpool-service ${1:name} ${2:{:keys} ${3:[core-pool-size} ${4:max-pool-size} ${5:keep-alive-time} ${6:keep-alive-unit} ${7:queue-size],} ${8::as} ${9:opts,} ${10::or} ${11:{core-pool-size} ${12:1,} ${13:max-pool-size} ${14:128,} ${15:keep-alive-time} ${16:10,} ${17:keep-alive-unit} ${18:TimeUnit/MILLISECONDS,} ${19:queue-size} ${20:1000}}}"
+    },
+    {
+      "trigger": "riemann.shinken/shinken\topts",
+      "contents": "riemann.shinken/shinken ${1:opts}"
+    },
+    {
+      "trigger": "riemann.slack/slack\taccount_name token username channel",
+      "contents": "riemann.slack/slack ${1:account_name} ${2:token} ${3:username} ${4:channel}"
+    },
+    {
+      "trigger": "riemann.slack/slack\t{:keys [webhook_uri account token]} {:keys [username channel icon formatter], :or {formatter default-formatter}}",
+      "contents": "riemann.slack/slack ${1:{:keys} ${2:[webhook_uri} ${3:account} ${4:token]}} ${5:{:keys} ${6:[username} ${7:channel} ${8:icon} ${9:formatter],} ${10::or} ${11:{formatter} ${12:default-formatter}}}"
+    },
+    {
+      "trigger": "riemann.sns/sns-publish\taws-opts msg-opts events",
+      "contents": "riemann.sns/sns-publish ${1:aws-opts} ${2:msg-opts} ${3:events}"
+    },
+    {
+      "trigger": "riemann.sns/sns-publish-async\taws-opts msg-opts events & [async-opts]",
+      "contents": "riemann.sns/sns-publish-async ${1:aws-opts} ${2:msg-opts} ${3:events} ${4:&} ${5:[async-opts]}"
+    },
+    "riemann.sns/sns-publisher",
+    {
+      "trigger": "riemann.sns/sns-publisher\topts",
+      "contents": "riemann.sns/sns-publisher ${1:opts}"
+    },
+    {
+      "trigger": "riemann.sns/sns-publisher\taws-opts msg-opts & [async-opts]",
+      "contents": "riemann.sns/sns-publisher ${1:aws-opts} ${2:msg-opts} ${3:&} ${4:[async-opts]}"
+    },
+    {
+      "trigger": "riemann.stackdriver/generate-datapoints\topts event-or-events",
+      "contents": "riemann.stackdriver/generate-datapoints ${1:opts} ${2:event-or-events}"
+    },
+    {
+      "trigger": "riemann.stackdriver/metric-name\topts event",
+      "contents": "riemann.stackdriver/metric-name ${1:opts} ${2:event}"
+    },
+    {
+      "trigger": "riemann.stackdriver/post-datapoints\tapi-key uri data",
+      "contents": "riemann.stackdriver/post-datapoints ${1:api-key} ${2:uri} ${3:data}"
+    },
+    {
+      "trigger": "riemann.stackdriver/stackdriver\topts",
+      "contents": "riemann.stackdriver/stackdriver ${1:opts}"
+    },
+    {
+      "trigger": "riemann.streams/->ApdexState\tevent satisfied tolerated other",
+      "contents": "riemann.streams/->ApdexState ${1:event} ${2:satisfied} ${3:tolerated} ${4:other}"
+    },
+    {
+      "trigger": "riemann.streams/adjust\t& args",
+      "contents": "riemann.streams/adjust ${1:&} ${2:args}"
+    },
+    {
+      "trigger": "riemann.streams/apdex\tdt satisfied? tolerated? & children",
+      "contents": "riemann.streams/apdex ${1:dt} ${2:satisfied?} ${3:tolerated?} ${4:&} ${5:children}"
+    },
+    {
+      "trigger": "riemann.streams/apdex*\tdt satisfied? tolerated? & children",
+      "contents": "riemann.streams/apdex* ${1:dt} ${2:satisfied?} ${3:tolerated?} ${4:&} ${5:children}"
+    },
+    {
+      "trigger": "riemann.streams/append\treference",
+      "contents": "riemann.streams/append ${1:reference}"
+    },
+    {
+      "trigger": "riemann.streams/batch\tn dt & children",
+      "contents": "riemann.streams/batch ${1:n} ${2:dt} ${3:&} ${4:children}"
+    },
+    {
+      "trigger": "riemann.streams/bit-bucket\targs",
+      "contents": "riemann.streams/bit-bucket ${1:args}"
+    },
+    {
+      "trigger": "riemann.streams/by\tfields & children",
+      "contents": "riemann.streams/by ${1:fields} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/call-rescue\tevent children",
+      "contents": "riemann.streams/call-rescue ${1:event} ${2:children}"
+    },
+    {
+      "trigger": "riemann.streams/changed\tpred & children",
+      "contents": "riemann.streams/changed ${1:pred} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/changed-state\t& children",
+      "contents": "riemann.streams/changed-state ${1:&} ${2:children}"
+    },
+    {
+      "trigger": "riemann.streams/clock-skew\t& children",
+      "contents": "riemann.streams/clock-skew ${1:&} ${2:children}"
+    },
+    {
+      "trigger": "riemann.streams/coalesce\t& [dt & children]",
+      "contents": "riemann.streams/coalesce ${1:&} ${2:[dt} ${3:&} ${4:children]}"
+    },
+    {
+      "trigger": "riemann.streams/coalesce-with-event\tkeyfn child",
+      "contents": "riemann.streams/coalesce-with-event ${1:keyfn} ${2:child}"
+    },
+    {
+      "trigger": "riemann.streams/combine\tf & children",
+      "contents": "riemann.streams/combine ${1:f} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/counter\t& children",
+      "contents": "riemann.streams/counter ${1:&} ${2:children}"
+    },
+    {
+      "trigger": "riemann.streams/ddt\t& args",
+      "contents": "riemann.streams/ddt ${1:&} ${2:args}"
+    },
+    {
+      "trigger": "riemann.streams/ddt-events\t& children",
+      "contents": "riemann.streams/ddt-events ${1:&} ${2:children}"
+    },
+    {
+      "trigger": "riemann.streams/ddt-real\tn & children",
+      "contents": "riemann.streams/ddt-real ${1:n} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/default\t& args",
+      "contents": "riemann.streams/default ${1:&} ${2:args}"
+    },
+    {
+      "trigger": "riemann.streams/dual\tpred true-stream false-stream",
+      "contents": "riemann.streams/dual ${1:pred} ${2:true-stream} ${3:false-stream}"
+    },
+    {
+      "trigger": "riemann.streams/ewma\thalflife & children",
+      "contents": "riemann.streams/ewma ${1:halflife} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/ewma-timeless\tr & children",
+      "contents": "riemann.streams/ewma-timeless ${1:r} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/exception-stream\texception-stream & children",
+      "contents": "riemann.streams/exception-stream ${1:exception-stream} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/execute-on\texecutor & children",
+      "contents": "riemann.streams/execute-on ${1:executor} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/expired\t& children",
+      "contents": "riemann.streams/expired ${1:&} ${2:children}"
+    },
+    {
+      "trigger": "riemann.streams/expired?\tevent",
+      "contents": "riemann.streams/expired? ${1:event}"
+    },
+    {
+      "trigger": "riemann.streams/fill-in\tinterval default-event & children",
+      "contents": "riemann.streams/fill-in ${1:interval} ${2:default-event} ${3:&} ${4:children}"
+    },
+    {
+      "trigger": "riemann.streams/fill-in-last\tinterval update & children",
+      "contents": "riemann.streams/fill-in-last ${1:interval} ${2:update} ${3:&} ${4:children}"
+    },
+    {
+      "trigger": "riemann.streams/fixed-event-window\tn & children",
+      "contents": "riemann.streams/fixed-event-window ${1:n} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/fixed-offset-time-window\tn & children",
+      "contents": "riemann.streams/fixed-offset-time-window ${1:n} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/fixed-time-window\tn & children",
+      "contents": "riemann.streams/fixed-time-window ${1:n} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/fold-interval\tinterval event-key folder & children",
+      "contents": "riemann.streams/fold-interval ${1:interval} ${2:event-key} ${3:folder} ${4:&} ${5:children}"
+    },
+    {
+      "trigger": "riemann.streams/fold-interval-metric\tinterval folder & children",
+      "contents": "riemann.streams/fold-interval-metric ${1:interval} ${2:folder} ${3:&} ${4:children}"
+    },
+    {
+      "trigger": "riemann.streams/forward\tclient",
+      "contents": "riemann.streams/forward ${1:client}"
+    },
+    {
+      "trigger": "riemann.streams/interpolate-constant\tinterval & children",
+      "contents": "riemann.streams/interpolate-constant ${1:interval} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/map->ApdexState\tm__5869__auto__",
+      "contents": "riemann.streams/map->ApdexState ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.streams/match\tf value & children",
+      "contents": "riemann.streams/match ${1:f} ${2:value} ${3:&} ${4:children}"
+    },
+    {
+      "trigger": "riemann.streams/mean-over-time\tchildren",
+      "contents": "riemann.streams/mean-over-time ${1:children}"
+    },
+    {
+      "trigger": "riemann.streams/moving-event-window\tn & children",
+      "contents": "riemann.streams/moving-event-window ${1:n} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/moving-time-window\tn & children",
+      "contents": "riemann.streams/moving-time-window ${1:n} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/over\tx & children",
+      "contents": "riemann.streams/over ${1:x} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/part-time-fast\tinterval create add finish",
+      "contents": "riemann.streams/part-time-fast ${1:interval} ${2:create} ${3:add} ${4:finish}"
+    },
+    {
+      "trigger": "riemann.streams/part-time-simple\tdt reset add finish",
+      "contents": "riemann.streams/part-time-simple ${1:dt} ${2:reset} ${3:add} ${4:finish}"
+    },
+    {
+      "trigger": "riemann.streams/part-time-simple\tdt reset add side-effects finish",
+      "contents": "riemann.streams/part-time-simple ${1:dt} ${2:reset} ${3:add} ${4:side-effects} ${5:finish}"
+    },
+    {
+      "trigger": "riemann.streams/percentiles\tinterval points & children",
+      "contents": "riemann.streams/percentiles ${1:interval} ${2:points} ${3:&} ${4:children}"
+    },
+    {
+      "trigger": "riemann.streams/periodically-until-expired\tf",
+      "contents": "riemann.streams/periodically-until-expired ${1:f}"
+    },
+    {
+      "trigger": "riemann.streams/periodically-until-expired\tinterval f",
+      "contents": "riemann.streams/periodically-until-expired ${1:interval} ${2:f}"
+    },
+    {
+      "trigger": "riemann.streams/periodically-until-expired\tinterval delay f",
+      "contents": "riemann.streams/periodically-until-expired ${1:interval} ${2:delay} ${3:f}"
+    },
+    {
+      "trigger": "riemann.streams/pipe\tmarker & stages",
+      "contents": "riemann.streams/pipe ${1:marker} ${2:&} ${3:stages}"
+    },
+    {
+      "trigger": "riemann.streams/project\tbasis & children",
+      "contents": "riemann.streams/project ${1:basis} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/project*\tpredicates & children",
+      "contents": "riemann.streams/project* ${1:predicates} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/rate\tinterval & children",
+      "contents": "riemann.streams/rate ${1:interval} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/register\treference",
+      "contents": "riemann.streams/register ${1:reference}"
+    },
+    {
+      "trigger": "riemann.streams/rollup\tn dt & children",
+      "contents": "riemann.streams/rollup ${1:n} ${2:dt} ${3:&} ${4:children}"
+    },
+    {
+      "trigger": "riemann.streams/runs\tlen-run field & children",
+      "contents": "riemann.streams/runs ${1:len-run} ${2:field} ${3:&} ${4:children}"
+    },
+    {
+      "trigger": "riemann.streams/scale\tfactor & children",
+      "contents": "riemann.streams/scale ${1:factor} ${2:&} ${3:children}"
+    },
+    "riemann.streams/sdo",
+    {
+      "trigger": "riemann.streams/sdo\tchild",
+      "contents": "riemann.streams/sdo ${1:child}"
+    },
+    {
+      "trigger": "riemann.streams/sdo\tchild & children",
+      "contents": "riemann.streams/sdo ${1:child} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/smap\tf & children",
+      "contents": "riemann.streams/smap ${1:f} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/smap*\tf & children",
+      "contents": "riemann.streams/smap* ${1:f} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/smapcat\tf & children",
+      "contents": "riemann.streams/smapcat ${1:f} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/split\t& clauses",
+      "contents": "riemann.streams/split ${1:&} ${2:clauses}"
+    },
+    {
+      "trigger": "riemann.streams/split*\t& clauses",
+      "contents": "riemann.streams/split* ${1:&} ${2:clauses}"
+    },
+    {
+      "trigger": "riemann.streams/splitp\tpred expr & clauses",
+      "contents": "riemann.streams/splitp ${1:pred} ${2:expr} ${3:&} ${4:clauses}"
+    },
+    {
+      "trigger": "riemann.streams/sreduce\tf & opts",
+      "contents": "riemann.streams/sreduce ${1:f} ${2:&} ${3:opts}"
+    },
+    {
+      "trigger": "riemann.streams/stable\tdt f & children",
+      "contents": "riemann.streams/stable ${1:dt} ${2:f} ${3:&} ${4:children}"
+    },
+    {
+      "trigger": "riemann.streams/sum-over-time\t& children",
+      "contents": "riemann.streams/sum-over-time ${1:&} ${2:children}"
+    },
+    {
+      "trigger": "riemann.streams/tag\ttags & children",
+      "contents": "riemann.streams/tag ${1:tags} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/tagged-all\ttags & children",
+      "contents": "riemann.streams/tagged-all ${1:tags} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/tagged-all?\ttags event",
+      "contents": "riemann.streams/tagged-all? ${1:tags} ${2:event}"
+    },
+    {
+      "trigger": "riemann.streams/tagged-any\ttags & children",
+      "contents": "riemann.streams/tagged-any ${1:tags} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/tagged-any?\ttags event",
+      "contents": "riemann.streams/tagged-any? ${1:tags} ${2:event}"
+    },
+    {
+      "trigger": "riemann.streams/throttle\tn dt & children",
+      "contents": "riemann.streams/throttle ${1:n} ${2:dt} ${3:&} ${4:children}"
+    },
+    {
+      "trigger": "riemann.streams/top\tk f top-stream",
+      "contents": "riemann.streams/top ${1:k} ${2:f} ${3:top-stream}"
+    },
+    {
+      "trigger": "riemann.streams/top\tk f top-stream bottom-stream",
+      "contents": "riemann.streams/top ${1:k} ${2:f} ${3:top-stream} ${4:bottom-stream}"
+    },
+    {
+      "trigger": "riemann.streams/top\tk f top-stream bottom-stream demote?",
+      "contents": "riemann.streams/top ${1:k} ${2:f} ${3:top-stream} ${4:bottom-stream} ${5:demote?}"
+    },
+    {
+      "trigger": "riemann.streams/under\tx & children",
+      "contents": "riemann.streams/under ${1:x} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/where\texpr & children",
+      "contents": "riemann.streams/where ${1:expr} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/where*\tf & children",
+      "contents": "riemann.streams/where* ${1:f} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/where-partition-clauses\texprs",
+      "contents": "riemann.streams/where-partition-clauses ${1:exprs}"
+    },
+    {
+      "trigger": "riemann.streams/where-rewrite\texpr",
+      "contents": "riemann.streams/where-rewrite ${1:expr}"
+    },
+    {
+      "trigger": "riemann.streams/window\tn & children",
+      "contents": "riemann.streams/window ${1:n} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/with\t& args",
+      "contents": "riemann.streams/with ${1:&} ${2:args}"
+    },
+    {
+      "trigger": "riemann.streams/within\tr & children",
+      "contents": "riemann.streams/within ${1:r} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.streams/without\tr & children",
+      "contents": "riemann.streams/without ${1:r} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.test/deftest\tname & body",
+      "contents": "riemann.test/deftest ${1:name} ${2:&} ${3:body}"
+    },
+    {
+      "trigger": "riemann.test/fresh-results\ttaps",
+      "contents": "riemann.test/fresh-results ${1:taps}"
+    },
+    {
+      "trigger": "riemann.test/inject!\tevents",
+      "contents": "riemann.test/inject! ${1:events}"
+    },
+    {
+      "trigger": "riemann.test/inject!\tstreams events",
+      "contents": "riemann.test/inject! ${1:streams} ${2:events}"
+    },
+    {
+      "trigger": "riemann.test/io\t& children",
+      "contents": "riemann.test/io ${1:&} ${2:children}"
+    },
+    {
+      "trigger": "riemann.test/lookup\tevents host service",
+      "contents": "riemann.test/lookup ${1:events} ${2:host} ${3:service}"
+    },
+    {
+      "trigger": "riemann.test/run-stream\tstream inputs",
+      "contents": "riemann.test/run-stream ${1:stream} ${2:inputs}"
+    },
+    {
+      "trigger": "riemann.test/run-stream-intervals\tstream inputs-and-intervals",
+      "contents": "riemann.test/run-stream-intervals ${1:stream} ${2:inputs-and-intervals}"
+    },
+    {
+      "trigger": "riemann.test/tap\tname & children",
+      "contents": "riemann.test/tap ${1:name} ${2:&} ${3:children}"
+    },
+    {
+      "trigger": "riemann.test/tap-stream\tname child",
+      "contents": "riemann.test/tap-stream ${1:name} ${2:child}"
+    },
+    {
+      "trigger": "riemann.test/test-stream\tstream inputs outputs",
+      "contents": "riemann.test/test-stream ${1:stream} ${2:inputs} ${3:outputs}"
+    },
+    {
+      "trigger": "riemann.test/test-stream-intervals\tstream inputs-and-intervals outputs",
+      "contents": "riemann.test/test-stream-intervals ${1:stream} ${2:inputs-and-intervals} ${3:outputs}"
+    },
+    {
+      "trigger": "riemann.test/tests\t& body",
+      "contents": "riemann.test/tests ${1:&} ${2:body}"
+    },
+    {
+      "trigger": "riemann.test/with-test-env\t& body",
+      "contents": "riemann.test/with-test-env ${1:&} ${2:body}"
+    },
+    {
+      "trigger": "riemann.test/with-test-stream\tsym stream inputs outputs",
+      "contents": "riemann.test/with-test-stream ${1:sym} ${2:stream} ${3:inputs} ${4:outputs}"
+    },
+    {
+      "trigger": "riemann.time/->Every\tid f t interval deferred-t cancelled",
+      "contents": "riemann.time/->Every ${1:id} ${2:f} ${3:t} ${4:interval} ${5:deferred-t} ${6:cancelled}"
+    },
+    {
+      "trigger": "riemann.time/->Once\tid f t cancelled",
+      "contents": "riemann.time/->Once ${1:id} ${2:f} ${3:t} ${4:cancelled}"
+    },
+    {
+      "trigger": "riemann.time/after!\tdelay f",
+      "contents": "riemann.time/after! ${1:delay} ${2:f}"
+    },
+    {
+      "trigger": "riemann.time/cancel\ttask",
+      "contents": "riemann.time/cancel ${1:task}"
+    },
+    {
+      "trigger": "riemann.time/defer\tthis new-time",
+      "contents": "riemann.time/defer ${1:this} ${2:new-time}"
+    },
+    {
+      "trigger": "riemann.time/every!\tinterval f",
+      "contents": "riemann.time/every! ${1:interval} ${2:f}"
+    },
+    {
+      "trigger": "riemann.time/every!\tinterval delay f",
+      "contents": "riemann.time/every! ${1:interval} ${2:delay} ${3:f}"
+    },
+    "riemann.time/linear-time-real",
+    {
+      "trigger": "riemann.time/map->Every\tm__5869__auto__",
+      "contents": "riemann.time/map->Every ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.time/map->Once\tm__5869__auto__",
+      "contents": "riemann.time/map->Once ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.time/next-tick\tanchor dt",
+      "contents": "riemann.time/next-tick ${1:anchor} ${2:dt}"
+    },
+    {
+      "trigger": "riemann.time/next-tick\tanchor dt now",
+      "contents": "riemann.time/next-tick ${1:anchor} ${2:dt} ${3:now}"
+    },
+    {
+      "trigger": "riemann.time/once!\tt f",
+      "contents": "riemann.time/once! ${1:t} ${2:f}"
+    },
+    "riemann.time/poll-task!",
+    "riemann.time/reset-tasks!",
+    {
+      "trigger": "riemann.time/run\ttask",
+      "contents": "riemann.time/run ${1:task}"
+    },
+    {
+      "trigger": "riemann.time/run-tasks!\ti",
+      "contents": "riemann.time/run-tasks! ${1:i}"
+    },
+    {
+      "trigger": "riemann.time/schedule!\ttask",
+      "contents": "riemann.time/schedule! ${1:task}"
+    },
+    {
+      "trigger": "riemann.time/schedule-sneaky!\ttask",
+      "contents": "riemann.time/schedule-sneaky! ${1:task}"
+    },
+    "riemann.time/start!",
+    "riemann.time/stop!",
+    {
+      "trigger": "riemann.time/succ\ttask",
+      "contents": "riemann.time/succ ${1:task}"
+    },
+    "riemann.time/task-id",
+    "riemann.time/unix-time-real",
+    {
+      "trigger": "riemann.time.controlled/advance!\tt",
+      "contents": "riemann.time.controlled/advance! ${1:t}"
+    },
+    {
+      "trigger": "riemann.time.controlled/control-time!\tf",
+      "contents": "riemann.time.controlled/control-time! ${1:f}"
+    },
+    {
+      "trigger": "riemann.time.controlled/reset-time!\tf",
+      "contents": "riemann.time.controlled/reset-time! ${1:f}"
+    },
+    "riemann.time.controlled/reset-time!",
+    {
+      "trigger": "riemann.time.controlled/set-time!\tt",
+      "contents": "riemann.time.controlled/set-time! ${1:t}"
+    },
+    {
+      "trigger": "riemann.time.controlled/with-controlled-time!\t& body",
+      "contents": "riemann.time.controlled/with-controlled-time! ${1:&} ${2:body}"
+    },
+    {
+      "trigger": "riemann.transport/channel-group\tname",
+      "contents": "riemann.transport/channel-group ${1:name}"
+    },
+    {
+      "trigger": "riemann.transport/channel-initializer\t& names-and-exprs",
+      "contents": "riemann.transport/channel-initializer ${1:&} ${2:names-and-exprs}"
+    },
+    "riemann.transport/datagram->byte-buf-decoder",
+    {
+      "trigger": "riemann.transport/derefable\tf",
+      "contents": "riemann.transport/derefable ${1:f}"
+    },
+    "riemann.transport/event-executor",
+    {
+      "trigger": "riemann.transport/handle\tcore msg",
+      "contents": "riemann.transport/handle ${1:core} ${2:msg}"
+    },
+    "riemann.transport/msg-decoder",
+    "riemann.transport/msg-encoder",
+    "riemann.transport/protobuf-decoder",
+    "riemann.transport/protobuf-encoder",
+    {
+      "trigger": "riemann.transport/retain\tx",
+      "contents": "riemann.transport/retain ${1:x}"
+    },
+    {
+      "trigger": "riemann.transport/shutdown-event-executor-group\tg",
+      "contents": "riemann.transport/shutdown-event-executor-group ${1:g}"
+    },
+    "riemann.transport.debug/in-tap",
+    "riemann.transport.debug/out-tap",
+    {
+      "trigger": "riemann.transport.graphite/decode-graphite-line\tline",
+      "contents": "riemann.transport.graphite/decode-graphite-line ${1:line}"
+    },
+    {
+      "trigger": "riemann.transport.graphite/graphite-frame-decoder\tparser-fn",
+      "contents": "riemann.transport.graphite/graphite-frame-decoder ${1:parser-fn}"
+    },
+    {
+      "trigger": "riemann.transport.graphite/graphite-handler\tcore stats ctx message",
+      "contents": "riemann.transport.graphite/graphite-handler ${1:core} ${2:stats} ${3:ctx} ${4:message}"
+    },
+    "riemann.transport.graphite/graphite-server",
+    {
+      "trigger": "riemann.transport.graphite/graphite-server\topts",
+      "contents": "riemann.transport.graphite/graphite-server ${1:opts}"
+    },
+    {
+      "trigger": "riemann.transport.opentsdb/decode-opentsdb-line\tline",
+      "contents": "riemann.transport.opentsdb/decode-opentsdb-line ${1:line}"
+    },
+    {
+      "trigger": "riemann.transport.opentsdb/initializer\tparser-fn message-handler",
+      "contents": "riemann.transport.opentsdb/initializer ${1:parser-fn} ${2:message-handler}"
+    },
+    {
+      "trigger": "riemann.transport.opentsdb/opentsdb-frame-decoder\tparser-fn",
+      "contents": "riemann.transport.opentsdb/opentsdb-frame-decoder ${1:parser-fn}"
+    },
+    {
+      "trigger": "riemann.transport.opentsdb/opentsdb-handler\tcore stats ctx message",
+      "contents": "riemann.transport.opentsdb/opentsdb-handler ${1:core} ${2:stats} ${3:ctx} ${4:message}"
+    },
+    "riemann.transport.opentsdb/opentsdb-server",
+    {
+      "trigger": "riemann.transport.opentsdb/opentsdb-server\topts",
+      "contents": "riemann.transport.opentsdb/opentsdb-server ${1:opts}"
+    },
+    {
+      "trigger": "riemann.transport.sse/->SSEServer\thost port headers core server stats",
+      "contents": "riemann.transport.sse/->SSEServer ${1:host} ${2:port} ${3:headers} ${4:core} ${5:server} ${6:stats}"
+    },
+    {
+      "trigger": "riemann.transport.sse/http-query-map\tstring",
+      "contents": "riemann.transport.sse/http-query-map ${1:string}"
+    },
+    {
+      "trigger": "riemann.transport.sse/map->SSEServer\tm__5869__auto__",
+      "contents": "riemann.transport.sse/map->SSEServer ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.transport.sse/sse-error-uri\tch uri",
+      "contents": "riemann.transport.sse/sse-error-uri ${1:ch} ${2:uri}"
+    },
+    {
+      "trigger": "riemann.transport.sse/sse-handler\tcore stats headers",
+      "contents": "riemann.transport.sse/sse-handler ${1:core} ${2:stats} ${3:headers}"
+    },
+    {
+      "trigger": "riemann.transport.sse/sse-out\t{:keys [out], :as stats} ch pred",
+      "contents": "riemann.transport.sse/sse-out ${1:{:keys} ${2:[out],} ${3::as} ${4:stats}} ${5:ch} ${6:pred}"
+    },
+    "riemann.transport.sse/sse-server",
+    {
+      "trigger": "riemann.transport.sse/sse-server\t{:keys [host port headers], :or {host \"127.0.0.1\", port 5558, headers {}}}",
+      "contents": "riemann.transport.sse/sse-server ${1:{:keys} ${2:[host} ${3:port} ${4:headers],} ${5::or} ${6:{host} ${7:\"127.0.0.1\",} ${8:port} ${9:5558,} ${10:headers} ${11:{}}}}"
+    },
+    {
+      "trigger": "riemann.transport.tcp/->TCPServer\thost port equiv channel-group initializer core stats killer",
+      "contents": "riemann.transport.tcp/->TCPServer ${1:host} ${2:port} ${3:equiv} ${4:channel-group} ${5:initializer} ${6:core} ${7:stats} ${8:killer}"
+    },
+    {
+      "trigger": "riemann.transport.tcp/gen-tcp-handler\tcore stats channel-group handler",
+      "contents": "riemann.transport.tcp/gen-tcp-handler ${1:core} ${2:stats} ${3:channel-group} ${4:handler}"
+    },
+    {
+      "trigger": "riemann.transport.tcp/initializer\tcore stats channel-group ssl-context",
+      "contents": "riemann.transport.tcp/initializer ${1:core} ${2:stats} ${3:channel-group} ${4:ssl-context}"
+    },
+    {
+      "trigger": "riemann.transport.tcp/map->TCPServer\tm__5869__auto__",
+      "contents": "riemann.transport.tcp/map->TCPServer ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.transport.tcp/ssl-handler\tcontext",
+      "contents": "riemann.transport.tcp/ssl-handler ${1:context}"
+    },
+    {
+      "trigger": "riemann.transport.tcp/tcp-handler\tcore stats ctx message",
+      "contents": "riemann.transport.tcp/tcp-handler ${1:core} ${2:stats} ${3:ctx} ${4:message}"
+    },
+    "riemann.transport.tcp/tcp-server",
+    {
+      "trigger": "riemann.transport.tcp/tcp-server\topts",
+      "contents": "riemann.transport.tcp/tcp-server ${1:opts}"
+    },
+    {
+      "trigger": "riemann.transport.udp/->UDPServer\thost port max-size so-rcvbuf channel-group handler stats core killer",
+      "contents": "riemann.transport.udp/->UDPServer ${1:host} ${2:port} ${3:max-size} ${4:so-rcvbuf} ${5:channel-group} ${6:handler} ${7:stats} ${8:core} ${9:killer}"
+    },
+    {
+      "trigger": "riemann.transport.udp/map->UDPServer\tm__5869__auto__",
+      "contents": "riemann.transport.udp/map->UDPServer ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.transport.udp/udp-handler\tcore stats ctx message",
+      "contents": "riemann.transport.udp/udp-handler ${1:core} ${2:stats} ${3:ctx} ${4:message}"
+    },
+    "riemann.transport.udp/udp-server",
+    {
+      "trigger": "riemann.transport.udp/udp-server\topts",
+      "contents": "riemann.transport.udp/udp-server ${1:opts}"
+    },
+    {
+      "trigger": "riemann.transport.websockets/->WebsocketServer\thost port core server stats",
+      "contents": "riemann.transport.websockets/->WebsocketServer ${1:host} ${2:port} ${3:core} ${4:server} ${5:stats}"
+    },
+    {
+      "trigger": "riemann.transport.websockets/http-query-map\tstring",
+      "contents": "riemann.transport.websockets/http-query-map ${1:string}"
+    },
+    {
+      "trigger": "riemann.transport.websockets/map->WebsocketServer\tm__5869__auto__",
+      "contents": "riemann.transport.websockets/map->WebsocketServer ${1:m__5869__auto__}"
+    },
+    {
+      "trigger": "riemann.transport.websockets/put-events-handler\tcore stats ch req",
+      "contents": "riemann.transport.websockets/put-events-handler ${1:core} ${2:stats} ${3:ch} ${4:req}"
+    },
+    {
+      "trigger": "riemann.transport.websockets/ws-index-handler\tcore stats ch hs actions",
+      "contents": "riemann.transport.websockets/ws-index-handler ${1:core} ${2:stats} ${3:ch} ${4:hs} ${5:actions}"
+    },
+    {
+      "trigger": "riemann.transport.websockets/ws-pubsub-handler\tcore stats ch hs actions",
+      "contents": "riemann.transport.websockets/ws-pubsub-handler ${1:core} ${2:stats} ${3:ch} ${4:hs} ${5:actions}"
+    },
+    "riemann.transport.websockets/ws-server",
+    {
+      "trigger": "riemann.transport.websockets/ws-server\topts",
+      "contents": "riemann.transport.websockets/ws-server ${1:opts}"
+    },
+    "riemann.twilio/twilio",
+    {
+      "trigger": "riemann.twilio/twilio\topts",
+      "contents": "riemann.twilio/twilio ${1:opts}"
+    },
+    {
+      "trigger": "riemann.twilio/twilio\ttwilio-opts msg-opts",
+      "contents": "riemann.twilio/twilio ${1:twilio-opts} ${2:msg-opts}"
+    },
+    {
+      "trigger": "riemann.twilio/twilio-message\ttwilio-opts msg-opts events",
+      "contents": "riemann.twilio/twilio-message ${1:twilio-opts} ${2:msg-opts} ${3:events}"
+    },
+    {
+      "trigger": "riemann.xymon/format-line\t{:keys [ttl host service state description], :or {host \"\", service \"\", description \"\", state \"unknown\"}}",
+      "contents": "riemann.xymon/format-line ${1:{:keys} ${2:[ttl} ${3:host} ${4:service} ${5:state} ${6:description],} ${7::or} ${8:{host} ${9:\"\",} ${10:service} ${11:\"\",} ${12:description} ${13:\"\",} ${14:state} ${15:\"unknown\"}}}"
+    },
+    {
+      "trigger": "riemann.xymon/send-line\topts line",
+      "contents": "riemann.xymon/send-line ${1:opts} ${2:line}"
+    },
+    {
+      "trigger": "riemann.xymon/xymon\topts",
+      "contents": "riemann.xymon/xymon ${1:opts}"
+    }
+  ]
+}
