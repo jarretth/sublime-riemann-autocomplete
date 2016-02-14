@@ -83,7 +83,7 @@ function writeConfig($config, $filename) {
 }
 
 $config = array(
-    'scope' => 'source.clojure',
+    'scope' => 'source.clojure source.symbol.clojure',
     'completions' => array()
 );
 
