@@ -50,7 +50,7 @@ function addNamespaceFunctionsToConfig(&$config,$name,$functions) {
         $fnPieces = explode(' ', $function);
         $fnName = array_shift($fnPieces);
         if($name != 'riemann.config') {
-            $fnName = sprintf('%s/%s',$name,$fnName);
+            $fnName = sprintf('%s/%s',substr($name, strlen('riemann.')),$fnName);
         }
         $trigger = sprintf("%s\t%s",$fnName, implode(' ', $fnPieces));
         if (!empty($fnPieces)) {
